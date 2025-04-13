@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.30)
-project(listlib C)
+project(listlib VERSION 0.1.1 LANGUAGES C)
 
 set(CMAKE_C_STANDARD 23)
 
