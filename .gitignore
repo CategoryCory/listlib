@@ -166,4 +166,7 @@ fabric.properties
 !.idea/codeStyles
 !.idea/runConfigurations
 
+# Doxygen documentation
+docs
+
 # End of https://www.toptal.com/developers/gitignore/api/c,cmake,jetbrains+all

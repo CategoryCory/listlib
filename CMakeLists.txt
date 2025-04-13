@@ -9,3 +9,9 @@ target_include_directories(list PUBLIC include)
 
 enable_testing()
 add_subdirectory(tests)
+
+add_custom_target(doc
+        COMMAND doxygen ${CMAKE_SOURCE_DIR}/Doxyfile
+        WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+        COMMENT "Generating API documentation with Doxygen"
+)
